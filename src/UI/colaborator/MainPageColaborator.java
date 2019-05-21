@@ -1,26 +1,16 @@
-package UI.owner;
+package UI.colaborator;
 
 import java.util.ArrayList;
 
-public class MainPageOwner {
-    private Object sideBar;
+public class MainPageColaborator {
     private Object labelTitle;
     private Object buttonInvoice;
     private Object buttonTicket;
     private ArrayList<Object> texItems;
     private Object buttonCharge;
 
+    public MainPageColaborator(){
 
-    public MainPageOwner(){
-
-    }
-
-    public Object getSideBar() {
-        return sideBar;
-    }
-
-    public void setSideBar(Object sideBar) {
-        this.sideBar = sideBar;
     }
 
     public Object getLabelTitle() {
