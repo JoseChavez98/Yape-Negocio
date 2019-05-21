@@ -8,7 +8,6 @@ public class ViewController {
     private MainPageColaborator mainPageColaborator;
     private Login login;
     private MakeInvoice makeInvoice;
-    private MakeTicket makeTicket;
     private Register register;
 
     public ViewController(){
@@ -45,14 +44,6 @@ public class ViewController {
 
     public void setMakeInvoice(MakeInvoice makeInvoice) {
         this.makeInvoice = makeInvoice;
-    }
-
-    public MakeTicket getMakeTicket() {
-        return makeTicket;
-    }
-
-    public void setMakeTicket(MakeTicket makeTicket) {
-        this.makeTicket = makeTicket;
     }
 
     public Register getRegister() {
